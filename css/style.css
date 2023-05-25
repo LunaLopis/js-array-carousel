@@ -1,0 +1,41 @@
+.carousel-container {
+    width: 700px; /* Adjust the width as per your requirements */
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid red;
+    position: relative;
+  }
+  
+  .carousel {
+    height: 100%; 
+  }
+  
+  .carousel-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* transition: transform 0.3s ease-in-out; */
+  }
+  
+  .carousel-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carousel-buttons button {
+    padding: 5px 10px;
+  }
+.prev-button .next-button {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-image.active {
+display: block;
+}
+  
