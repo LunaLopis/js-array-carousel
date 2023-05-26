@@ -1,7 +1,35 @@
+creare carosello con immagini ricevute.
+
+1. creo markup statico.
+2. rimuovo markup statito per inserirlo dinamicamente.
+ 2.1 creo array immagini.
+ 2.2 dom elemento per immagini
+ 2.3 ciclare array
+ 2.4 contenuto array con path immagine
+ 2.5  regole per immagine attiva e le altre disattive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Consegna:
 Dato un array contenente una lista di cinque immagini, creare un carosello come nello screenshot allegato;
-
-
 MILESTONE 1
 Per prima cosa, creiamo il markup statico: costruiamo il container e inseriamo un'immagine grande al centro: avremo così la struttura base e gli stili pronti per poterci poi concentrare solamente sull'aspetto logico.
 MILESTONE 2
